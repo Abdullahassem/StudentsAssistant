@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddLecture">
+
+    <EditText
+        android:id="@+id/etLectureName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Lecture Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etStartTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Start Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLectureName" />
+
+    <EditText
+        android:id="@+id/etEndTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="End Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etStartTime" />
+
+    <EditText
+        android:id="@+id/etDays"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Days"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEndTime" />
+
+    <Button
+        android:id="@+id/btnAddLecture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Lecture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDays" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
