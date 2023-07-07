@@ -3,20 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:background="@drawable/rounded_border">
 
     <TextView
         android:id="@+id/tvDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Day"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="4dp"/>
 
     <TextView
         android:id="@+id/tvLectures"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Lectures" />
+        android:text="Lectures"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
